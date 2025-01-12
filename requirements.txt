@@ -1,0 +1,6 @@
+flet
+google-generativeai
+wikipedia-api
+pyttsx3
+SpeechRecognition
+Flask
