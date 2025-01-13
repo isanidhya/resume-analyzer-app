@@ -23,7 +23,7 @@ def main(page: Page):
     page.add(Column([upload_button]))
 
 def analyze_resume(resume_path):
-    genai.configure(api_key="AIzaSyC9M7kooi60pBJjHIdgYFNzp6K73bJQtp4")
+    genai.configure(api_key="YOUR API KEY")
     model = genai.GenerativeModel('gemini-pro')
     
     with open(resume_path, 'r', encoding='utf-8') as file:
